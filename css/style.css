@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    .photo, .text{
+        flex-direction: column;
+    }
+    .box{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .text{
+        flex-wrap: wrap;
+    }
+    .block{
+        width: 40%;
+    }
+    .photo{
+        flex-direction: column;
+    }
+    .box{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 992px){
+    .box{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .block{
+        width: 20%;
+    }
+}
+img{
+    width: 100%;
+}
+.photo, .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
